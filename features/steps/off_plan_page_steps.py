@@ -13,5 +13,5 @@ def filter_out_of_stocks(context):
     context.app.off_plan_page.click_sale_status()
 
 @then('Verify products have Out of Stock tag')
-def verify_out_of_stock(context):
-    context.app.off_plan_page.verify_out_of_stock()
+def verify_all_out_of_stock(context):
+    context.app.off_plan_page.verify_all_out_of_stock()
