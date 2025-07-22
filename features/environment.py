@@ -19,8 +19,8 @@ def browser_init(context):
 
     ### HEADLESS MODE ####
     # options = webdriver.ChromeOptions()
-    # options.add_argument('headless')  # Enable headless mode
-    # options.add_argument('window-size=1920,1080')  # Set window size to Full HD
+    # options.add_argument('headless')
+    # options.add_argument('window-size=1920,1080')
     #
     # context.driver = webdriver.Chrome(service=service, options=options)
 
