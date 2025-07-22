@@ -21,7 +21,6 @@ def browser_init(context):
     # options = webdriver.ChromeOptions()
     # options.add_argument('headless')
     # options.add_argument('window-size=1920,1080')
-    #
     # context.driver = webdriver.Chrome(service=service, options=options)
 
 
