@@ -1,6 +1,7 @@
 
 Feature: Test Filters for Off Plan
 
+  @tests
   Scenario: Verify Out of Stocks filter for Off Plan
     Given Open main page
     When Log in to page
